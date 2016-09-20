@@ -1,0 +1,314 @@
+BUAT ISI SISWA
+
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('hendra_12', 'Hendra Setyo', 'hendra', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 3//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('ayu_12', 'Ayu Purwaningrum', 'ayu', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 3//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('siti_12', 'Siti Miftahul', 'siti', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 3//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('putri_12', 'Putri Nova', 'putri', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 3//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('agus_12', 'Agus Dwi', 'agus', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 3//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('fajri_12', 'Fajri Abdullah', 'fajri', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 2//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('mega_12', 'Mega Fitria', 'mega', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 2//
+INSERT INTO `ams12`.`siswa` (`username`, `namaSiswa`, `password`, `level`, `akses`, `kelas`, `jurusan`) VALUES ('intan_12', 'Intan Pertiwi', 'intan', 'siswa', NULL, '1', 'IPA2');  //sampe kelas 1//
+
+
+
+
+BUAT NILAI SISWA
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'hendra_12', '1', '1', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '86', 'hendra_12', '2', '1', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'hendra_12', '3', '1', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'hendra_12', '4', '1', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'hendra_12', '5', '1', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '60', 'hendra_12', '6', '1', 'IPA2', 'hendra dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '1', '2', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '86', 'hendra_12', '2', '2', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'hendra_12', '3', '2', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'hendra_12', '4', '2', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '5', '2', 'IPA2', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '6', '2', 'IPA2', 'hendra dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'hendra_12', '1', '3', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'hendra_12', '2', '3', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'hendra_12', '3', '3', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'hendra_12', '4', '3', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '73', 'hendra_12', '5', '3', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '6', '3', 'IPA3', 'hendra dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'hendra_12', '1', '4', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'hendra_12', '2', '4', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '62', 'hendra_12', '3', '4', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'hendra_12', '4', '4', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '5', '4', 'IPA3', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'hendra_12', '6', '4', 'IPA3', 'hendra dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '1', '5', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'hendra_12', '2', '5', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '69', 'hendra_12', '3', '5', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'hendra_12', '4', '5', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '79', 'hendra_12', '5', '5', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '76', 'hendra_12', '6', '5', 'IPA1', 'hendra dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'hendra_12', '1', '6', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'hendra_12', '2', '6', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'hendra_12', '3', '6', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'hendra_12', '4', '6', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'hendra_12', '5', '6', 'IPA1', 'hendra dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'hendra_12', '6', '6', 'IPA1', 'hendra dwi');
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'ayu_12', '1', '1', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'ayu_12', '2', '1', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'ayu_12', '3', '1', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'ayu_12', '4', '1', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'ayu_12', '5', '1', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'ayu_12', '6', '1', 'IPA1', 'Ayu Purwaningrum');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'ayu_12', '1', '2', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'ayu_12', '2', '2', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'ayu_12', '3', '2', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'ayu_12', '4', '2', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '73', 'ayu_12', '5', '2', 'IPA1', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '77', 'ayu_12', '6', '2', 'IPA1', 'Ayu Purwaningrum');
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'ayu_12', '1', '3', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'ayu_12', '2', '3', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'ayu_12', '3', '3', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'ayu_12', '4', '3', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'ayu_12', '5', '3', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '76', 'ayu_12', '6', '3', 'IPA2', 'Ayu Purwaningrum');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '60', 'ayu_12', '1', '4', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'ayu_12', '2', '4', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'ayu_12', '3', '4', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'ayu_12', '4', '4', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'ayu_12', '5', '4', 'IPA2', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '77', 'ayu_12', '6', '4', 'IPA2', 'Ayu Purwaningrum');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '79', 'ayu_12', '1', '5', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'ayu_12', '2', '5', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'ayu_12', '3', '5', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'ayu_12', '4', '5', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'ayu_12', '5', '5', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '76', 'ayu_12', '6', '5', 'IPA4', 'Ayu Purwaningrum');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'ayu_12', '1', '6', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '88', 'ayu_12', '2', '6', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'ayu_12', '3', '6', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'ayu_12', '4', '6', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '73', 'ayu_12', '5', '6', 'IPA4', 'Ayu Purwaningrum');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '7f', 'ayu_12', '6', '6', 'IPA4', 'Ayu Purwaningrum');
+
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'siti_12', '1', '1', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'siti_12', '2', '1', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'siti_12', '3', '1', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'siti_12', '4', '1', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'siti_12', '5', '1', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '76', 'siti_12', '6', '1', 'IPA4', 'Siti Miftahul');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'siti_12', '1', '2', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'siti_12', '2', '2', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'siti_12', '3', '2', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'siti_12', '4', '2', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'siti_12', '5', '2', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'siti_12', '6', '2', 'IPA4', 'Siti Miftahul');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '65', 'siti_12', '1', '3', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '82', 'siti_12', '2', '3', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'siti_12', '3', '3', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'siti_12', '4', '3', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '63', 'siti_12', '5', '3', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '73', 'siti_12', '6', '3', 'IPA4', 'Siti Miftahul');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'siti_12', '1', '4', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'siti_12', '2', '4', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '54', 'siti_12', '3', '4', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'siti_12', '4', '4', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'siti_12', '5', '4', 'IPA4', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'siti_12', '6', '4', 'IPA4', 'Siti Miftahul');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '77', 'siti_12', '1', '5', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'siti_12', '2', '5', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'siti_12', '3', '5', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'siti_12', '4', '5', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '87', 'siti_12', '5', '5', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '78', 'siti_12', '6', '5', 'IPA3', 'Siti Miftahul');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'siti_12', '1', '6', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'siti_12', '2', '6', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'siti_12', '3', '6', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '65', 'siti_12', '4', '6', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'siti_12', '5', '6', 'IPA3', 'Siti Miftahul');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '79', 'siti_12', '6', '6', 'IPA3', 'Siti Miftahul');
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '89', 'putri_12', '1', '1', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'putri_12', '2', '1', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'putri_12', '3', '1', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'putri_12', '4', '1', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'putri_12', '5', '1', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'putri_12', '6', '1', 'IPA3', 'Putri Nova');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'putri_12', '1', '2', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '89', 'putri_12', '2', '2', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '60', 'putri_12', '3', '2', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'putri_12', '4', '2', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '76', 'putri_12', '5', '2', 'IPA3', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'putri_12', '6', '2', 'IPA3', 'Putri Nova');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '92', 'putri_12', '1', '3', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'putri_12', '2', '3', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'putri_12', '3', '3', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'putri_12', '4', '3', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'putri_12', '5', '3', 'IPA2', 'Putri Nova')9
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '98', 'putri_12', '6', '3', 'IPA2', 'Putri Nova');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'putri_12', '1', '4', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'putri_12', '2', '4', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'putri_12', '3', '4', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'putri_12', '4', '4', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'putri_12', '5', '4', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'putri_12', '6', '4', 'IPA2', 'Putri Nova');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'putri_12', '1', '5', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'putri_12', '2', '5', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '64', 'putri_12', '3', '5', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'putri_12', '4', '5', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'putri_12', '5', '5', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'putri_12', '6', '5', 'IPA2', 'Putri Nova');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'putri_12', '1', '6', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'putri_12', '2', '6', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'putri_12', '3', '6', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'putri_12', '4', '6', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'putri_12', '5', '6', 'IPA2', 'Putri Nova');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'putri_12', '6', '6', 'IPA2', 'Putri Nova');
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'agus_12', '1', '1', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'agus_12', '2', '1', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'agus_12', '3', '1', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'agus_12', '4', '1', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'agus_12', '5', '1', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'agus_12', '6', '1', 'IPA2', 'Agus Dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'agus_12', '1', '2', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'agus_12', '2', '2', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'agus_12', '3', '2', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'agus_12', '4', '2', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'agus_12', '5', '2', 'IPA2', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '73', 'agus_12', '6', '2', 'IPA2', 'Agus Dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'agus_12', '1', '3', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'agus_12', '2', '3', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'agus_12', '3', '3', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'agus_12', '4', '3', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'agus_12', '5', '3', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'agus_12', '6', '3', 'IPA1', 'Agus Dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'agus_12', '1', '4', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'agus_12', '2', '4', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'agus_12', '3', '4', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'agus_12', '4', '4', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'agus_12', '5', '4', 'IPA1', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'agus_12', '6', '4', 'IPA1', 'Agus Dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '77', 'agus_12', '1', '5', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'agus_12', '2', '5', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'agus_12', '3', '5', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'agus_12', '4', '5', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '83', 'agus_12', '5', '5', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'agus_12', '6', '5', 'IPA3', 'Agus Dwi');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'agus_12', '1', '6', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'agus_12', '2', '6', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'agus_12', '3', '6', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'agus_12', '4', '6', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '86', 'agus_12', '5', '6', 'IPA3', 'Agus Dwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '76', 'agus_12', '6', '6', 'IPA3', 'Agus Dwi');
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '82', 'fajri_12', '1', '1', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'fajri_12', '2', '1', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'fajri_12', '3', '1', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'fajri_12', '4', '1', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'fajri_12', '5', '1', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'fajri_12', '6', '1', 'IPA3', 'Fajri Abdullah');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '72', 'fajri_12', '1', '2', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'fajri_12', '2', '2', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'fajri_12', '3', '2', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'fajri_12', '4', '2', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'fajri_12', '5', '2', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '78', 'fajri_12', '6', '2', 'IPA3', 'Fajri Abdullah');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'fajri_12', '1', '3', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'fajri_12', '2', '3', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'fajri_12', '3', '3', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'fajri_12', '4', '3', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'fajri_12', '5', '3', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'fajri_12', '6', '3', 'IPA3', 'Fajri Abdullah');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '82', 'fajri_12', '1', '4', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'fajri_12', '2', '4', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'fajri_12', '3', '4', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '95', 'fajri_12', '4', '4', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'fajri_12', '5', '4', 'IPA3', 'Fajri Abdullah');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'fajri_12', '6', '4', 'IPA3', 'Fajri Abdullah');
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '92', 'mega_12', '1', '1', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'mega_12', '2', '1', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'mega_12', '3', '1', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'mega_12', '4', '1', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'mega_12', '5', '1', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'mega_12', '6', '1', 'IPA4', 'Mega Fitria');
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '82', 'mega_12', '1', '2', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'mega_12', '2', '2', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'mega_12', '3', '2', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'mega_12', '4', '2', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'mega_12', '5', '2', 'IPA4', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '70', 'mega_12', '6', '2', 'IPA4', 'Mega Fitria');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '92', 'mega_12', '1', '3', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '91', 'mega_12', '2', '3', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'mega_12', '3', '3', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '85', 'mega_12', '4', '3', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'mega_12', '5', '3', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'mega_12', '6', '3', 'IPA2', 'Mega Fitria');
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '92', 'mega_12', '1', '4', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '74', 'mega_12', '2', '4', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'mega_12', '3', '4', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'mega_12', '4', '4', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'mega_12', '5', '4', 'IPA2', 'Mega Fitria');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'mega_12', '6', '4', 'IPA2', 'Mega Fitria');
+
+
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '87', 'intan_12', '1', '1', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'intan_12', '2', '1', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '94', 'intan_12', '3', '1', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'intan_12', '4', '1', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '80', 'intan_12', '5', '1', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '90', 'intan_12', '6', '1', 'IPA2', 'Intan Pertiwi');
+
+
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '77', 'intan_12', '1', '2', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '71', 'intan_12', '2', '2', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '84', 'intan_12', '3', '2', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '75', 'intan_12', '4', '2', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '81', 'intan_12', '5', '2', 'IPA2', 'Intan Pertiwi');
+INSERT INTO `ams12`.`nilai` (`id`, `Semester`, `Nilai`, `siswa_username`, `Mapel_idMapel`, `kelas`, `jurusan`, `namaSiswa`) VALUES (NULL, '1', '93', 'intan_12', '6', '2', 'IPA2', 'Intan Pertiwi');
